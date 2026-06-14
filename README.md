@@ -51,26 +51,6 @@ Built for the **Microsoft Agents League @ AI Skills Fest 2026** — Reasoning Ag
 | 🔒 **Security First** | Credentials managed via Azure CLI — never stored in code or browser storage |
 
 ---
-
-## 📸 Screenshots
-
-<div align="center">
-
-### Landing Screen — Engine Status
-![Landing](docs/screenshots/landing.png)
-
-### Analysis Dashboard — CRITICAL Risk Detection  
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Vulnerability Intelligence — With PoC Payloads
-![Vulnerabilities](docs/screenshots/vulnerabilities.png)
-
-### Remediation Plans — Code Diff View
-![Remediation](docs/screenshots/remediation.png)
-
-### Exported PDF Security Report
-![PDF](docs/screenshots/pdf.png)
-
 </div>
 
 ---
