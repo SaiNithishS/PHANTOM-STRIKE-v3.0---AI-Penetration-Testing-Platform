@@ -256,17 +256,6 @@ Built for **Microsoft Agents League @ AI Skills Fest 2026**
 - **Track**: Reasoning Agents (Microsoft Foundry IQ)
 - **Prize categories targeting**: Best Reasoning Agent • Best Use of IQ Tools
 - **Submission deadline**: June 14, 2026
-
-### Why PHANTOM STRIKE wins
-
-| Judging Criterion | Implementation |
-|---|---|
-| **Accuracy & Relevance** (20%) | Grounded in OWASP, CWE, MITRE ATT&CK via Foundry IQ KB |
-| **Reasoning & Multi-step Thinking** (20%) | Two-agent sequential pipeline — find then fix |
-| **Creativity & Originality** (15%) | Novel application of AI agents to security domain |
-| **User Experience** (15%) | Professional SOC-grade dashboard with PDF export |
-| **Reliability & Safety** (20%) | Azure CLI auth, thread cleanup, input validation |
-
 ---
 
 ## 📊 Supported Vulnerability Types
