@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Hackathon](https://img.shields.io/badge/Microsoft-Agents%20League%202026-purple?style=flat-square&logo=microsoft)](https://aka.ms/AgentsLeague)
 
-> **Autonomous codebase security auditing powered by two Microsoft Foundry IQ AI agents — upload a ZIP, get a complete penetration test report in 60 seconds.**
+> **Autonomous codebase security auditing powered by two Microsoft Foundry IQ AI agents - upload a ZIP, get a complete penetration test report in 60 seconds.**
 
 ---
 
@@ -33,7 +33,7 @@
 - **Compliance scoring** against OWASP ASVS, ISO 27001, and SOC 2
 - **Professional PDF report** ready for stakeholders
 
-Built for the **Microsoft Agents League @ AI Skills Fest 2026** — Reasoning Agents track.
+Built for the **Microsoft Agents League @ AI Skills Fest 2026** - Reasoning Agents track.
 
 ---
 
@@ -41,14 +41,14 @@ Built for the **Microsoft Agents League @ AI Skills Fest 2026** — Reasoning Ag
 
 | Feature | Description |
 |---|---|
-| 🔍 **Dual-Agent Analysis** | Two specialised Microsoft Foundry IQ agents work sequentially — one finds vulnerabilities, one generates fixes |
+| 🔍 **Dual-Agent Analysis** | Two specialised Microsoft Foundry IQ agents work sequentially - one finds vulnerabilities, one generates fixes |
 | 🧠 **Foundry IQ Knowledge Base** | Agents grounded with OWASP Cheat Sheets, VAPT Playbook, and CWE definitions |
 | ⚡ **Real-time Terminal** | Live streaming progress as agents process your codebase |
 | 📊 **Interactive Dashboard** | 7-tab security report with risk gauge, compliance bars, attack chain timeline |
 | 🛡️ **Pre-scan Engine** | Client-side secret detection and dependency extraction before AI analysis |
 | 📄 **Professional PDF Export** | Cover page, executive summary, full findings, code diffs, and compliance mapping |
 | 🎮 **Demo Mode** | Full dashboard preview without any API credentials |
-| 🔒 **Security First** | Credentials managed via Azure CLI — never stored in code or browser storage |
+| 🔒 **Security First** | Credentials managed via Azure CLI - never stored in code or browser storage |
 
 ---
 </div>
@@ -163,12 +163,12 @@ http://localhost:8080
 
 ### Create two agents in [Azure AI Foundry](https://ai.azure.com):
 
-**Agent 1 — Security Consultant (`consultant`)**
+**Agent 1 - Security Consultant (`consultant`)**
 - Model: `gpt-4.1-mini` or `gpt-4o`
 - Instructions: See [`docs/agent-instructions/consultant.md`](docs/agent-instructions/consultant.md)
 - Knowledge: OWASP Cheat Sheets + VAPT Playbook
 
-**Agent 2 — Remediation Specialist (`remediation`)**
+**Agent 2 - Remediation Specialist (`remediation`)**
 - Model: `gpt-4.1-mini` or `gpt-4o`
 - Instructions: See [`docs/agent-instructions/remediation.md`](docs/agent-instructions/remediation.md)
 - Knowledge: OWASP Cheat Sheets + CWE Mitigations
@@ -193,7 +193,7 @@ https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html
 ```
 phantom-strike/
 ├── index.html          # Complete React frontend (single file)
-├── server.py           # Flask backend — Foundry IQ integration
+├── server.py           # Flask backend - Foundry IQ integration
 ├── run_analysis.py     # CLI analysis script (alternative to server)
 ├── README.md           # This file
 └── docs/
@@ -234,18 +234,18 @@ phantom-strike/
         ↓
 6. DASHBOARD renders with full findings
         ↓
-7. PDF REPORT generated — professional A4 document
+7. PDF REPORT generated - professional A4 document
 ```
 
 ---
 
 ## 🛡️ Security
 
-- **No credentials in source code** — Azure CLI manages authentication
-- **Session-only storage** — credentials cleared when browser tab closes
-- **Code stays local** — uploaded ZIP processed on your machine
-- **Thread cleanup** — Foundry conversation threads deleted after analysis
-- **HTTPS only** — all Azure API calls over encrypted connections
+- **No credentials in source code** - Azure CLI manages authentication
+- **Session-only storage** - credentials cleared when browser tab closes
+- **Code stays local** - uploaded ZIP processed on your machine
+- **Thread cleanup** - Foundry conversation threads deleted after analysis
+- **HTTPS only** - all Azure API calls over encrypted connections
 
 ---
 
@@ -277,19 +277,19 @@ Built for **Microsoft Agents League @ AI Skills Fest 2026**
 
 ## 🧑‍💻 Built With
 
-- **[Microsoft Foundry IQ](https://ai.azure.com)** — AI agent hosting and knowledge base
-- **[Azure AI Projects SDK](https://pypi.org/project/azure-ai-projects/)** — Python agent integration
-- **[React 18](https://reactjs.org)** — Frontend UI framework
-- **[Flask](https://flask.palletsprojects.com)** — Lightweight Python backend
-- **[JSZip](https://stuk.github.io/jszip/)** — Client-side ZIP extraction
-- **[html2pdf.js](https://ekoopmans.github.io/html2pdf.js/)** — PDF report generation
-- **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org)** — Security knowledge base
+- **[Microsoft Foundry IQ](https://ai.azure.com)** - AI agent hosting and knowledge base
+- **[Azure AI Projects SDK](https://pypi.org/project/azure-ai-projects/)** - Python agent integration
+- **[React 18](https://reactjs.org)** - Frontend UI framework
+- **[Flask](https://flask.palletsprojects.com)** - Lightweight Python backend
+- **[JSZip](https://stuk.github.io/jszip/)** - Client-side ZIP extraction
+- **[html2pdf.js](https://ekoopmans.github.io/html2pdf.js/)** - PDF report generation
+- **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org)** - Security knowledge base
 
 ---
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
